@@ -1,4 +1,4 @@
-//change the conditions of the for loop
-for(let number = 0; number < 10; number++){
-    //print the number
-}  
+//you code here
+for (let i=1;i<18;i++){
+    console.log(i);
+}
