@@ -9,4 +9,8 @@ let tasks = [
 	{ label: 'Make a trip', done: false }
 ];
 
-//your code here
+let doneTasks = tasks.filter(function(item){
+	return (item.done); //It automatically looks for the 'true' ones.
+});
+
+console.log(doneTasks);
